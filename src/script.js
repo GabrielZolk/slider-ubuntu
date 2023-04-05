@@ -112,6 +112,7 @@ buttonSix.addEventListener('click', goToSix);
 buttonSeven.addEventListener('click', goToSeven);
 
 function goToOne() {
+  carousel.scrollTo({ left: 250, behavior: 'smooth' });
   buttonOne.classList.add('active');
   buttonTwo.classList.remove('active');
   buttonThree.classList.remove('active');
@@ -122,6 +123,7 @@ function goToOne() {
 }
 
 function goToTwo() {
+  carousel.scrollTo({ left: 610, behavior: 'smooth' });
   buttonOne.classList.remove('active');
   buttonTwo.classList.add('active');
   buttonThree.classList.remove('active');
@@ -132,6 +134,7 @@ function goToTwo() {
 }
 
 function goToThree() {
+  carousel.scrollTo({ left: 980, behavior: 'smooth' });
   buttonOne.classList.remove('active');
   buttonTwo.classList.remove('active');
   buttonThree.classList.add('active');
@@ -142,6 +145,7 @@ function goToThree() {
 }
 
 function goToFour() {
+  carousel.scrollTo({ left: 1400, behavior: 'smooth' });
   buttonOne.classList.remove('active');
   buttonTwo.classList.remove('active');
   buttonThree.classList.remove('active');
@@ -152,6 +156,7 @@ function goToFour() {
 }
 
 function goToFive() {
+  carousel.scrollTo({ left: 1800, behavior: 'smooth' });
   buttonOne.classList.remove('active');
   buttonTwo.classList.remove('active');
   buttonThree.classList.remove('active');
@@ -162,6 +167,7 @@ function goToFive() {
 }
 
 function goToSix() {
+  carousel.scrollTo({ left: 2200, behavior: 'smooth' });
   buttonOne.classList.remove('active');
   buttonTwo.classList.remove('active');
   buttonThree.classList.remove('active');
@@ -172,6 +178,7 @@ function goToSix() {
 }
 
 function goToSeven() {
+  carousel.scrollTo({ left: 2600, behavior: 'smooth' });
   buttonOne.classList.remove('active');
   buttonTwo.classList.remove('active');
   buttonThree.classList.remove('active');
