@@ -247,7 +247,7 @@ img {
 }
 
 .buttons {
-    position: absolute;
+    position: fixed;
     left: 680px;
     bottom: 170px;
 }
@@ -272,7 +272,7 @@ img {
 }
 
 .title {
-    position: absolute;
+    position: fixed;
     text-align: center;
     left: 460px;
     top: 50px;

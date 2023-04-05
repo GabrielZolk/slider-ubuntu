@@ -58,10 +58,10 @@ function handleMouseMove(event) {
       rightButton.classList.remove('active');
       endButton.classList.add('active');
     }
-    console.log(scrollLeft)
+  
     carousel.scrollTo({ left: scrollLeft, behavior: 'smooth' });
 
-    // Para fazer o carrossel ser arrastado livremente comentar a linha 54 e descomentar a 58
+    // Para fazer o carrossel ser arrastado livremente comentar a linha 62 e descomentar a 66
 
     // carousel.scrollLeft = scrollLeft;
   }
